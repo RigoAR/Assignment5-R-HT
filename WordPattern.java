@@ -42,7 +42,7 @@ public class WordPattern {
         System.out.println("Example 4: " + wordPattern("aaaa", ' ', "ice cream taco day"));  // false
         System.out.println("Example 5: " + wordPattern("adxp", ' ', "ice cream taco day"));  // true
 
-        // Edge cases
+        // Edge cases with weird special characters
         System.out.println("Edge case 1: " + wordPattern("a", '.', "single"));  // true
         System.out.println("Edge case 2: " + wordPattern("abc", '-', "a-b-c"));  // true
         System.out.println("Edge case 3: " + wordPattern("aaa", '_', "same_same_same"));  // true

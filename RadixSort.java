@@ -142,7 +142,7 @@ public class RadixSort {
         System.out.println("\nSample Output:");
         System.out.println(String.join(", ", sorted));
 
-        // Extra credit
+        // EC
         String[] mixedCaseInput = {
                 "Google", "gojo", "Amazingly", "jogo", "Luna", "pup",
                 "Solas", "solo", "Pupperino", "amaterasu", "Amazon",
