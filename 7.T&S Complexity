@@ -3,7 +3,7 @@
 complexity for storing the hash table array, plus temporary storage for tracking
 collisions and the probe sequences.
 
-The time complexity is O(k * n) where k is the length
+5.The time complexity is O(k * n) where k is the length
 of the longest string and n is the number of strings because we process each character
 position for each string once, and space complexity is O(n) since we need to store all
 strings in the buckets and in the result array.
