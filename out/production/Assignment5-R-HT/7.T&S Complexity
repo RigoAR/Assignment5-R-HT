@@ -1,0 +1,15 @@
+4. The time complexity is O(n) as each insertion requires at most M probes
+(M is the table size) with hash calculations in constant time, and O(M) space
+complexity for storing the hash table array, plus temporary storage for tracking
+collisions and the probe sequences.
+
+The time complexity is O(k * n) where k is the length
+of the longest string and n is the number of strings because we process each character
+position for each string once, and space complexity is O(n) since we need to store all
+strings in the buckets and in the result array.
+
+6. The time complexity is O(n) where n is the length of the input string
+because we need to split the string and iterate through each character-word pair once and
+space complexity is O(p) where p is the pattern length because we store at most
+p unique character-to-word and word-to-character mappings in our hash maps.
+
